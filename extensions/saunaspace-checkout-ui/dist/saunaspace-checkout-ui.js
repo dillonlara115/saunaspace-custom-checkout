@@ -19519,7 +19519,6 @@ ${errorInfo.componentStack}`);
     };
     const handleNoteChange = (newValue) => {
       setNote(newValue);
-      console.log(newValue);
       if (newValue) {
         applyNoteChange({ type: "updateNote", note: newValue });
       } else {
@@ -19527,7 +19526,6 @@ ${errorInfo.componentStack}`);
       }
     };
     (0, import_react12.useEffect)(() => {
-      console.log(note);
     }, [note]);
     return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(BlockStack2, { children: [
       /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Checkbox2, { checked, onChange: handleChange, children: "Provide Order Notes" }),

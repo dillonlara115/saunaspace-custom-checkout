@@ -26,7 +26,6 @@ function App() {
   // Handle the note change event
   const handleNoteChange = (newValue) => {
     setNote(newValue);
-    console.log(newValue);
   
     if (newValue) {
       applyNoteChange({ type: 'updateNote', note: newValue });
@@ -36,7 +35,7 @@ function App() {
   }
   
   useEffect(() => {
-    console.log(note); // This will log the updated note after render
+   // console.log(note); // This will log the updated note after render
   }, [note]);
   
 
