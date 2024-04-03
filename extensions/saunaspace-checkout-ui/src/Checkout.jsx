@@ -8,7 +8,7 @@ import {
 } from '@shopify/ui-extensions-react/checkout';
 
 // Set the entry point for the extension
-export default reactExtension('purchase.checkout.shipping-option-list.render-after', () => <App />);
+export default reactExtension('purchase.checkout.contact-information.render-before', () => <App />);
 
 function App() {
   // Set up the checkbox state

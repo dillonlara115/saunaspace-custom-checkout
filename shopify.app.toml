@@ -2,7 +2,7 @@
 
 name = "saunaspace-custom-checkout"
 client_id = "e8327af6e8089f33c050252f55ef308d"
-application_url = "https://william-bibliographic-route-td.trycloudflare.com"
+application_url = "https://saint-spiritual-endorsed-isbn.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://william-bibliographic-route-td.trycloudflare.com/auth/callback",
-  "https://william-bibliographic-route-td.trycloudflare.com/auth/shopify/callback",
-  "https://william-bibliographic-route-td.trycloudflare.com/api/auth/callback",
-  "https://william-bibliographic-route-td.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://saint-spiritual-endorsed-isbn.trycloudflare.com/auth/callback",
+  "https://saint-spiritual-endorsed-isbn.trycloudflare.com/auth/shopify/callback",
+  "https://saint-spiritual-endorsed-isbn.trycloudflare.com/api/auth/callback",
+  "https://saint-spiritual-endorsed-isbn.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]
